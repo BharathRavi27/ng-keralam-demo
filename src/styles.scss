@@ -1,1 +1,28 @@
 /* You can add global styles to this file, and also import other style files */
+
+html,
+body {
+  margin: 0;
+  padding: 10px;
+  height: 100%;
+  overflow: hidden;
+}
+.drawer-container {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 400px;
+  transition: all 300ms;
+  padding: 10px 0px;
+  box-shadow: -2px 2px 6px 0px #0000002e;
+  height: 100%;
+}
+button {
+  background: cadetblue;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+}
