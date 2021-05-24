@@ -1,0 +1,17 @@
+<!-- Used multiple content projection to take control of the reusable component
+
+Used ‘select’ keyword to grab any element projected via CSS selectors -->
+
+<app-v3-drawer [isOpen]="isOpen" (drawerClosed)="close()">
+  <div class="head">
+    <h5>Responses</h5>
+  </div>
+  <div class="body">
+    <ul>
+      <li>Loved the article!</li>
+      <li>Very well written</li>
+    </ul>
+  </div>
+</app-v3-drawer>
+
+<button (click)="isOpen = true">Open v3</button>
