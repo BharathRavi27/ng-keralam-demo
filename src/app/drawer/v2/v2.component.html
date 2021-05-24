@@ -1,0 +1,13 @@
+<app-v2-drawer [isOpen]="isOpen" (drawerClosed)="close()">
+  <div>
+    <h5>Responses</h5>
+  </div>
+  <div>
+    <ul>
+      <li>Loved the article!</li>
+      <li>Very well written</li>
+    </ul>
+  </div>
+</app-v2-drawer>
+
+<button (click)="isOpen = true">Open v2</button>
