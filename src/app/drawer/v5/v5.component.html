@@ -1,0 +1,22 @@
+<!-- Using cass binding to open/close modal -->
+<!-- Using css variables to pass the width and bind variable -->
+
+<app-v5-drawer
+  [isOpen]="isOpen"
+  (drawerClosed)="close()"
+  #commentDrawer="drawer"
+  [style.--drawer-width]="'200px'"
+>
+  <div class="head">
+    <button (click)="commentDrawer.close()">Close</button>
+    <h5>Responses</h5>
+  </div>
+  <div class="body">
+    <ul>
+      <li>Loved the article!</li>
+      <li>Very well written</li>
+    </ul>
+  </div>
+</app-v5-drawer>
+
+<button (click)="isOpen = true">Open v5</button>
