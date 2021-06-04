@@ -1,6 +1,10 @@
-# NgKeralamDemo
+# NgKeralam Demo
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.4.
+Verion by version repo of the drawer component created on ng Keralam talk show
+
+# Talk 
+
+https://www.youtube.com/watch?v=UVrE6NuqNiI
 
 ## Development server
 
